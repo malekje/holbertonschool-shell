@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 ## tell the story of passwd
+o="/etc/passwd"
+while IFS=":"
