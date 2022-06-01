@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+## if file empty ...
+n="school"
+if [ -e $n ]
+then
+	echo "$n file exists"
+if [ -s $n ]
+then
+	echo "$n file is not empty"
+else 
+	echo "$n file is empty"
+fi
+if [ -f $n ]
+then
+	echo "$n is a regular file"
+fi
+else 
+	echo "$n file does not exist"
+fi
