@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+## stop the infinite loop
+task4="4-to_infinity_and_beyond"
+kill "$(pgrep -F $task4)"
