@@ -5,5 +5,5 @@ while true
 do
 	echo $text
 	sleep 2
-	trap $text SIGTERM
+	trap 'echo"I am invincible!!!"' SIGTERM
 done
