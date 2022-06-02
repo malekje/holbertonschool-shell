@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+## display i am invincible
+text="I am invincible!!!"
+while true
+do
+	echo $text
+	sleep 2
+	trap $text SIGTERM
+done
