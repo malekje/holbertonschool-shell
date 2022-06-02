@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+## stop task 7
+task7="7-highlander"
+pkill -f $task7
